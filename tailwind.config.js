@@ -14,8 +14,8 @@ export default {
         remember: "#628280"
       },
       backgroundImage: {
-        fundo: "url(src/assets/fundo.png)",
-        borderTexto: "url(src/assets/borderTexto.png)"
+        fundo: "url(/src/assets/fundo.png)",
+        borderTexto: "url(/src/assets/borderTexto.png)"
       }
     },
   },
