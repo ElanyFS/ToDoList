@@ -6,7 +6,6 @@ import {
   AiFillExclamationCircle,
   AiOutlineTag,
 } from "react-icons/ai";
-import { IsEntryFormOpen } from "./IsEntryFormOpen";
 import { Button } from "./Button";
 
 interface taskItemProps {
