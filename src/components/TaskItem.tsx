@@ -93,19 +93,19 @@ export const TaskItem = ({
 
       {modalDescription && (
         <div className="fixed inset-0 bg-black/60 flex items-center justify-center px-3 z-[1900]">
-          <div className="w-[664px] bg-zinc-200 rounded-xl py-5 px-6 shadow-shape space-y-5">
+          <div className="w-[664px] bg-zinc-200 rounded-xl py-2 px-4 shadow-shape space-y-1">
             <div className="flex items-center justify-end">
               <Button
                 variant="secondary"
                 size="padding"
                 onClick={closeDescription}
               >
-                <AiFillCloseCircle className="size-5 text-red-600" />
+                <AiFillCloseCircle className="size-7 text-[#628280]" />
               </Button>
             </div>
 
-            <div className="border-2">
-              <p className="text-red-500">{taskSelect}</p>
+            <div className="p-2">
+              <p className="text-[#628280] text-3xl">{taskSelect}</p>
             </div>
           </div>
         </div>

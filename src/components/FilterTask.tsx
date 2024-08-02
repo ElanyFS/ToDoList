@@ -13,7 +13,7 @@ export const FilterTask: React.FC<filterProps> = ({
   setOrder,
 }) => {
   return (
-    <div className="filter flex justify-between items-start px-4">
+    <div className="filter flex justify-between items-start px-4 gap-4">
       <div className="filter_select">
         <h4 className="font-semibold">Selecionar: </h4>
         <ul className="flex flex-col md:flex-row md:items-center items-start md:gap-4 gap-2">
@@ -57,7 +57,7 @@ export const FilterTask: React.FC<filterProps> = ({
 
       <div className="filter_order space-y-2">
         <h4 className="font-semibold">Ordem alfabética: </h4>
-        <div className="flex justify-around gap-2">
+        <div className="btn_order flex justify-around gap-2">
           <Button variant="third" onClick={() => setOrder("Asc")}>
             Asc
           </Button>

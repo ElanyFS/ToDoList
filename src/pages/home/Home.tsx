@@ -89,7 +89,7 @@ export const Home = () => {
   };
 
   return (
-    <div className="h-screen sm:px-16 md:px-2 mt-2 mb-2 lg:px-20 px-5 bg-fundo bg-cover bg-no-repeat">
+    <div className="h-screen sm:px-16 md:px-2 mt-2 mb-4 lg:px-20 px-3 bg-fundo bg-cover bg-no-repeat">
       <div className="flex flex-col justify-center items-center">
         <div className="titulo mt-4">
           <h1 className="text-zinc-900 font-great text-center text-3xl md:text-4xl font-extrabold">
@@ -121,18 +121,20 @@ export const Home = () => {
             order={order}
           />
 
-          <div className="cards w-full space-y-2 sm:w-[60%] font-poppins">
+          <div className="cards w-full space-y-2 sm:w-[60%] font-poppins relative pb-2">
+            <div className="absolute top-0 right-0 mt-[-6px]">
+              <FaLightbulb className="text-4xl text-yellow-500" />
+            </div>
             <div className="notes w-full rounded-lg border-2 p-2 bg-remember text-center">
               <h2 className="font-semibold flex items-center justify-center gap-2 text-zinc-100">
                 Atrasadas
-                <FaLightbulb className="text-2xl text-yellow-500 animate-pulse" />
               </h2>
 
               <ul>
                 {getOverdueTasks().map((task) => (
                   <li
                     key={task.id}
-                    className="flex items-center justify-between border-b p-2 rounded"
+                    className="flex items-center gap-1 justify-between border-b p-2 rounded"
                   >
                     <h3 className="font-semibold text-red-600">{task.title}</h3>
                     <p className="text-zinc-200">{task.dueDate}</p>
