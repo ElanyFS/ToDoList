@@ -59,8 +59,8 @@ export const ToDoListCar = ({
   };
 
   return (
-    <div className="toDoList rounded-lg border-2 p-2 w-full bg-primary flex flex-col items-center space-y-3 relative">
-      <h2 className="font-light">To Do List</h2>
+    <div className="toDoList rounded-3xl border-2 p-2 w-full bg-primary flex flex-col items-center space-y-3 relative">
+      <h2 className="font-semibold">To Do List</h2>
       {currentTasks.map((task) => (
         <TaskItem
           key={task.id}

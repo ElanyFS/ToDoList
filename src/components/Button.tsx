@@ -5,8 +5,9 @@ const buttonVariants = tv({
     base: "border-2 flex items-center justify-center gap-2",
     variants: {
       variant: {
-        primary: "font-bold bg-zinc-50 text-[#628280] rounded",
+        primary: "font-bold bg-zinc-50 text-[#628280] rounded hover:bg-[#628280] hover:text-zinc-50",
         secondary: "bg-transparent",
+        third: "bg-transparent hover:bg-[#628280] hover:text-zinc-50",
       },
   
       size: {

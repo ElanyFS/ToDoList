@@ -45,12 +45,12 @@ export const TaskItem = ({
   }
 
   const colorCardTask = task.isCompleted
-    ? "border-2 border-green-500"
-    : "border-2 border-zinc-100";
+    ? "border-2 border-[#628280] bg-[#abdddb] line-through text-[#628280]"
+    : "border-2 border-zinc-100 text-[#628280]";
 
   return (
     <div
-      className={`w-full flex items-center justify-between gap-3 text-zinc-100 relative rounded p-2 ${colorCardTask}`}
+      className={`w-full flex items-center justify-between gap-3 relative rounded-lg p-2 ${colorCardTask}`}
       key={task.id}
     >
       <div className="flex justify-between items-center gap-2 box-border overflow-auto">

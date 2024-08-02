@@ -14,7 +14,8 @@ export default {
         remember: "#628280"
       },
       backgroundImage: {
-        card_notes: "url(src/assets/card-notes.png)"
+        fundo: "url(src/assets/fundo.png)",
+        borderTexto: "url(src/assets/borderTexto.png)"
       }
     },
   },

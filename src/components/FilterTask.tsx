@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from "./Button";
 
 interface filterProps {
   filter: string;
@@ -14,7 +15,7 @@ export const FilterTask: React.FC<filterProps> = ({
   return (
     <div className="filter flex justify-between items-start px-4">
       <div className="filter_select">
-        <h4>Selecionar: </h4>
+        <h4 className="font-semibold">Selecionar: </h4>
         <ul className="flex flex-col md:flex-row md:items-center items-start md:gap-4 gap-2">
           <li className="flex justify-center items-center gap-2">
             <input
@@ -55,10 +56,15 @@ export const FilterTask: React.FC<filterProps> = ({
       </div>
 
       <div className="filter_order space-y-2">
-        <h4>Ordem alfabética: </h4>
+        <h4 className="font-semibold">Ordem alfabética: </h4>
         <div className="flex justify-around gap-2">
-          <button className="border-2 px-3 py-1" onClick={() => setOrder("Asc")}>Asc</button>
-          <button className="border-2 px-3 py-1" onClick={() => setOrder("Desc")}>Desc</button>
+          <Button variant="third" onClick={() => setOrder("Asc")}>
+            Asc
+          </Button>
+
+          <Button variant="third" onClick={() => setOrder("Desc")}>
+            Desc
+          </Button>
         </div>
       </div>
     </div>
