@@ -4,7 +4,7 @@ Uma aplicação de lista de tarefas simples e intuitiva, desenvolvida para ajuda
 
 ## 🚀 Demonstração
 
-Você pode acessar o site ao vivo clicando <a href="">aqui</a>
+Você pode acessar o site ao vivo clicando [aqui](https://to-do-list-trilha.vercel.app/)
 
 ## 🛠️ Funcionalidades
 
@@ -37,11 +37,11 @@ Antes de começar, você precisará ter as seguintes ferramentas instaladas:
 ## ▶️ Como executar a aplicação
 1. Clone o repositório:
     ```bash
-    git clone https://github.com/ElanyFS/to-do-list.git
+    git clone https://github.com/ElanyFS/ToDoList.git
     ```
 2. Navegue até o diretório do projeto:
     ```bash
-    cd to-do-list
+    cd ToDoList
     ```
 3. Instale as dependências:
     ```bash
