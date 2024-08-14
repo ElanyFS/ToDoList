@@ -49,7 +49,7 @@ Antes de começar, você precisará ter as seguintes ferramentas instaladas:
     ```
 4. Inicie a aplicação:
     ```bash
-    npm start
+    npm run dev
     ```
 5. Acesse a aplicação em `http://localhost:3000`.
    
