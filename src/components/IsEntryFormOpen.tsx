@@ -14,7 +14,7 @@ export const IsEntryFormOpen = ({
   dados,
 }: isEntryFormOpenProps) => {
   return (
-    <div className="fixed inset-0 bg-black/60 flex items-center justify-center px-3">
+    <div className="fixed inset-0 bg-black/60 flex items-center justify-center px-3 z-20">
       <div className="w-[664px] bg-zinc-200 rounded-xl py-5 px-6 shadow-shape space-y-5">
         <div className="flex items-center justify-end">
           <Button variant="secondary" size="padding" onClick={btnOpenClose}>
